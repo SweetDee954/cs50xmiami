@@ -10,3 +10,13 @@ Forgot how old someone is? Calculate it!
 */
 
 // write your solution here...
+
+var currentYear = 2015;
+
+var birthYear = 1984;
+
+var monthAge = currentYear - birthYear;
+
+var otherAge = monthAge - 1;
+
+console.log("You are either "+ monthAge + " or  "+ otherAge+"");
