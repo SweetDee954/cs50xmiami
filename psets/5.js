@@ -12,4 +12,13 @@ For example:
 
 function drEvil(amount) {
   // write your solution here...
+  var amount = 1000000;
+
+    if (amount >= 100000) {
+      return amount + " dollars (pinky)";
+      } else {
+          return amount + " dollars";
+      }
 }
+
+console.log(drEvil(10));
